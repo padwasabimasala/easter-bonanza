@@ -11,6 +11,8 @@ GENERAL STYLES
     color: #ecf0f1;
     background: #16a085;
 }
+
+.white { color: white }
 body {
     font-family: 'Lato', sans-serif;
     color: #ecf0f1;
