@@ -5,7 +5,7 @@ GENERAL STYLES
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 ::-moz-selection {
     color: #ecf0f1;
-    background: #16a085;
+    background: #16a085; /* font icon background */
 }
 ::selection {
     color: #ecf0f1;
@@ -16,15 +16,24 @@ GENERAL STYLES
 body {
     font-family: 'Lato', sans-serif;
     color: #ecf0f1;
-    background: #1abc9c;
+    background: #1abc9c;  /* green background */
+    font-size: 16px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
 .heading {
     margin-bottom: 48px;
-    font-size: 3em;
+    font-size: 4em;
     margin-top: 0;
+}
+.subheading {
+  margin-top: 12px;
+  display: block;
+  font-size: 80%
+}
+.lead {
+  font-size: 200%;
 }
 a {
     transition: .25s;
@@ -192,7 +201,7 @@ MAIN AREA
 UPDATES
 */
 .updates {
-    background: #34495e;
+    background: #34495e; /* dark navy background */
     padding: 48px 12px;
     text-align: center;
 }
