@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .heading {
     margin-bottom: 48px;
-    font-size: 4em;
+    font-size: 5em;
     margin-top: 0;
 }
 .subheading {
@@ -35,13 +35,25 @@ h1, h2, h3, h4, h5, h6 {
 .lead {
   font-size: 200%;
 }
+.button {
+  text-decoration:underline;
+  font-size: 3em;
+}
+.button:hover {
+    color: #16a085;
+    text-decoration: none;
+    cursor: pointer;
+}
+.big {
+  font-size: 2em;
+}
 a {
     transition: .25s;
     color: #1abc9c;
 }
 a:hover {
     color: #16a085;
-    text-decoration: none;
+    text-decoration: underline;
 }
 a:focus {
     outline: none;
